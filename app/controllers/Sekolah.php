@@ -18,7 +18,6 @@ class Sekolah extends Controller
     public function index()
     {
         $data['rows'] = $this->model->show();
-        $data['rows'] = $this->model->show();
 
         $this->dashboard('sekolah/index', $data);
     }
